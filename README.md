@@ -14,8 +14,6 @@
 
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Paint App
-My University Project -> ( Paint App ) 
-<br>
 🛑 Please Pay Attention , The Language Of This Project Is Persian And Its Localized. If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Changelog
