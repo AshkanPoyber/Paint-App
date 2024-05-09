@@ -20,46 +20,6 @@
 v1.0.0.0 : <br>
 ✅ Final Version Published!
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> ToDo List
-💢 Main Page
-<br>
-💢 Adding Shopping Cart
-<br>
-💢 Adding Comment Section
-<br>
-💢 Adding User Registration And Login System
-<br>
-💢 Adding Orders Section
-<br>
-💢 Adding Payment Method ( IN SANDBOX MODE )
-<br>
-💢 Adding Product Pages
-<br>
-💢 Adding Contact Us Page
-<br>
-💢 Adding About Us Page
-<br>
-💢 Adding Some Error Page Example (404)
-<br>
-💢 Adding Some Error Page Example (403)
-<br>
-💢 Adding Some Error Page Example (400)
-<br>
-💢 Loader
-<br>
-💢 Adding Profile System
-<br>
-💢 Adding Category System
-<br>
-💢 MessageBox ( File Uploaded )
-<br>
-💢 MessageBox ( Wrong Password )
-<br>
-💢 MessageBox ( Successfully Register )
-<br>
-💢 Improving UI/UX Such As Responsive
-<br>
-💢 Design A Logo For Related Site
-<br>
 💢 And Absolutely So Much More
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Known Issue's
