@@ -14,7 +14,7 @@
 
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Paint App
-🛑 In This Program , You Can Design Your Drawings Like A Simple And Basic Drawing And Painting Program , And Save Them At The End , And In This Program , You Can Draw Various Shapes In Various Dimensions , And Then You Can Add Various Texts With , You Can Implement Various Features , To Get More Information About This Program , You Can Use This Project And Enjoy It . If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
+🛑 In This Program , You Can Design Your Drawings Like A Simple And Basic Drawing And Painting Program , And Save Them At The End , And In This Program , Users Can Draw Various Shapes In Various Dimensions Like Rectangles , Circles , Square And Another Shapes That You Want To Create And Desing , And Then You Can Add Various Texts With , You Can Implement Various Features , To Get More Information About This Program , You Can Use This Project And Enjoy It . If You're Looking For My Other Projects Then [Click Here!](https://github.com/AshkanPoyber?tab=repositories)
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Changelog
 v1.0.0.0 : <br>
