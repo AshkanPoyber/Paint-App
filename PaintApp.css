@@ -44,6 +44,7 @@ section {
 
 .row .options .option {
   display: flex;
+  cursor: pointer;
   align-items: center;
   margin-bottom: 10px;
 }
@@ -51,6 +52,11 @@ section {
 .option :where(span, label) {
   color: #5a6168;
   padding-left: 10px;
+}
+
+.option #fill-color {
+  height: 14px;
+  width: 14px;
 }
 
 .drawing-board {
