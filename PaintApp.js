@@ -1,4 +1,5 @@
 const canvas = document.querySelector("canvas"),
+  toolBtns = document.querySelectorAll(),
   ctx = canvas.getContext("2d");
 
 let isDrawing = false,
