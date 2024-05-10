@@ -9,10 +9,15 @@ window.addEventListener("load", () => {
   canvas.height = canvas.offsetHeight;
 });
 
+const startDraw = () => {
+  isDrawing = true;
+};
+
 const drawing = (e) => {
   if (!isDrawing) return; //If isdrawing Is False return From Here !
   ctx.lineTo(e.offsetX, e.offsetY); //Creating Line According To The Mouse Pointer !
   ctx.stroke(); //Drawing & Filling Line With Color !
 };
 
+canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
