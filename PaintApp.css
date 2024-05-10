@@ -59,6 +59,10 @@ section {
   padding-left: 10px;
 }
 
+.option:is(:hover, .active) :where(span, label) {
+  color: #4a98f7;
+}
+
 .option #fill-color {
   height: 14px;
   width: 14px;
