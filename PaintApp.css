@@ -68,6 +68,10 @@ section {
   width: 14px;
 }
 
+#fill-color:checked ~ label {
+  color: #4a98f7;
+}
+
 .drawing-board {
   flex: 1;
 }
