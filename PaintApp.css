@@ -91,6 +91,16 @@ section {
   margin-top: 3px;
 }
 
+.colors .option::before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: inherit;
+  border-radius: inherit;
+  border: 2px solid #fff;
+}
+
 .drawing-board {
   flex: 1;
 }
