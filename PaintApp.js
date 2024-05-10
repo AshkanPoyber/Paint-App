@@ -38,6 +38,7 @@ const drawRect = (e) => {
 
 const drawCircle = (e) => {
   ctx.arc(prevMouseX, prevMouseY, 50, 0, 2 * Math.PI);
+  ctx.stroke();
 };
 
 const startDraw = (e) => {
