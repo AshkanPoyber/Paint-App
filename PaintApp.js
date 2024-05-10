@@ -46,6 +46,11 @@ const drawCircle = (e) => {
   fillColor.checked ? ctx.fill() : ctx.stroke(); //If fillColor Is Checked Fill Circle Else Draw Border Circle !
 };
 
+const drawTriangle = (e) => {
+  ctx.beginPath(); //Creating New Path To Draw Circle !
+  ctx.moveTo(prevMouseX, prevMouseY); //Moving Triangle To The Mouse Pointer !
+};
+
 const startDraw = (e) => {
   isDrawing = true;
   prevMouseX = e.offsetX; //Passing Current MouseX Position As prevMouseX Value !
