@@ -50,6 +50,7 @@ const drawTriangle = (e) => {
   ctx.beginPath(); //Creating New Path To Draw Circle !
   ctx.moveTo(prevMouseX, prevMouseY); //Moving Triangle To The Mouse Pointer !
   ctx.lineTo(e.offsetX, e.offsetY); //Creating First Line According To The Mouse Pointer !
+  ctx.lineTo(prevMouseX * 2 - e.offsetX, e.offsetY); //Creating Bottom Line Of Triangle !
   ctx.stroke();
 };
 
