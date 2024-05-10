@@ -1,5 +1,5 @@
 const canvas = document.querySelector("canvas"),
-  toolBtns = document.querySelectorAll(),
+  toolBtns = document.querySelectorAll(".tool"),
   ctx = canvas.getContext("2d");
 
 let isDrawing = false,
@@ -22,6 +22,12 @@ const drawing = (e) => {
   ctx.lineTo(e.offsetX, e.offsetY); //Creating Line According To The Mouse Pointer !
   ctx.stroke(); //Drawing & Filling Line With Color !
 };
+
+toolBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    console.log(btn.id);
+  });
+});
 
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
