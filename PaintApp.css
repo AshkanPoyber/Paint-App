@@ -93,6 +93,7 @@ section {
 
 .colors .option:nth-child(1) {
   background: #fff;
+  border: 1px solid #bfbfbf;
 }
 
 .colors .option:nth-child(2) {
