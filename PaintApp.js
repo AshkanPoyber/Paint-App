@@ -52,7 +52,7 @@ const drawTriangle = (e) => {
   ctx.lineTo(e.offsetX, e.offsetY); //Creating First Line According To The Mouse Pointer !
   ctx.lineTo(prevMouseX * 2 - e.offsetX, e.offsetY); //Creating Bottom Line Of Triangle !
   ctx.closePath(); //Close Path Of A Triangle So The Third Line Draw Automatically !
-  fillColor.checked ? ctx.fill() : ctx.stroke(); //If fillColor Is Checked Fill Circle Else Draw Border Circle !
+  fillColor.checked ? ctx.fill() : ctx.stroke(); //If fillColor Is Checked Fill Triangle Else Draw Border Triangle !
 };
 
 const startDraw = (e) => {
