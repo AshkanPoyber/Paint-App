@@ -37,7 +37,12 @@ const drawRect = (e) => {
 };
 
 const drawCircle = (e) => {
-  ctx.arc(prevMouseX, prevMouseY, 50, 0, 2 * Math.PI);
+  ctx.beginPath(); //Creating New Path To Draw Circle !
+  //Getting Radius For Circle According To The mouse Pointer !
+  let radius = Math.sqrt(
+    Math.pow(prevMouseX - e.offsetX, 2) + Math.pow(prevMouseY - e.offsetY, 2)
+  );
+  ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI);
   ctx.stroke();
 };
 
