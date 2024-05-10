@@ -93,6 +93,8 @@ toolBtns.forEach((btn) => {
   });
 });
 
+sizeSlider.addEventListener("change", () => (brushWidth = sizeSlider.value)); //Pathing Slider Value As brushSize !
+
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
