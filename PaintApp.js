@@ -42,8 +42,8 @@ const drawCircle = (e) => {
   let radius = Math.sqrt(
     Math.pow(prevMouseX - e.offsetX, 2) + Math.pow(prevMouseY - e.offsetY, 2)
   );
-  ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI);
-  ctx.stroke();
+  ctx.arc(prevMouseX, prevMouseY, radius, 0, 2 * Math.PI); //Creating Circle According To The Mouse Pointer !
+  fillColor.checked ? ctx.fill() : ctx.stroke(); //If fillColor Is Checked Fill Circle Else Draw Border Circle !
 };
 
 const startDraw = (e) => {
