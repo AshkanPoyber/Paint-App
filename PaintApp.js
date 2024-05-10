@@ -2,7 +2,9 @@ const canvas = document.querySelector("canvas"),
   toolBtns = document.querySelectorAll(".tool"),
   ctx = canvas.getContext("2d");
 
+//Global Variables With Default Value !
 let isDrawing = false,
+  selectedTool = "brush",
   brushWidth = 5;
 
 window.addEventListener("load", () => {
@@ -10,6 +12,10 @@ window.addEventListener("load", () => {
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
 });
+
+const drawRect = (e) => {
+  //   ctx.strokeRect(e.offsetX, e.offsetY);
+};
 
 const startDraw = () => {
   isDrawing = true;
@@ -19,8 +25,13 @@ const startDraw = () => {
 
 const drawing = (e) => {
   if (!isDrawing) return; //If isdrawing Is False return From Here !
-  ctx.lineTo(e.offsetX, e.offsetY); //Creating Line According To The Mouse Pointer !
-  ctx.stroke(); //Drawing & Filling Line With Color !
+
+  if (selectedTool === "brush") {
+    ctx.lineTo(e.offsetX, e.offsetY); //Creating Line According To The Mouse Pointer !
+    ctx.stroke(); //Drawing & Filling Line With Color !
+  } else if (selectedTool == "rectangel") {
+    drawRect(e);
+  }
 };
 
 toolBtns.forEach((btn) => {
@@ -29,7 +40,8 @@ toolBtns.forEach((btn) => {
     //Removing Active Class From The Previous Option And Adding On Current Clicked Option !
     document.querySelector(".options .active").classList.remove("active");
     btn.classList.add("active");
-    console.log(btn.id);
+    selectedTool = btn.id;
+    console.log(selectedTool);
   });
 });
 
