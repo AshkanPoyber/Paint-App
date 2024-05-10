@@ -112,7 +112,7 @@ section {
   background: #4a98f7;
 }
 
-.colors .option::before {
+.colors .option:hover::before {
   position: absolute;
   content: "";
   top: 50%;
