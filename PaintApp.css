@@ -102,6 +102,7 @@ section {
   background: inherit;
   border-radius: inherit;
   border: 2px solid #fff;
+  transform: translate(-50%, -50%);
 }
 
 .drawing-board {
