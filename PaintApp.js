@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas"),
   toolBtns = document.querySelectorAll(".tool"),
-  fillColor = document.querySelectorAll("#fill-color"),
+  fillColor = document.querySelector("#fill-color"),
   ctx = canvas.getContext("2d");
 
 //Global Variables With Default Value !
