@@ -112,7 +112,7 @@ section {
   background: #4a98f7;
 }
 
-.colors .option:hover::before {
+.colors .option.selected::before {
   position: absolute;
   content: "";
   top: 50%;
@@ -125,7 +125,7 @@ section {
   transform: translate(-50%, -50%);
 }
 
-.colors .option:first-child:hover::before {
+.colors .option:first-child.selected::before {
   border-color: #ccc;
 }
 
