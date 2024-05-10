@@ -36,6 +36,10 @@ const drawRect = (e) => {
   );
 };
 
+const drawCircle = (e) => {
+  ctx.arc(prevMouseX, prevMouseY, 50, 0, 2 * Math.PI);
+};
+
 const startDraw = (e) => {
   isDrawing = true;
   prevMouseX = e.offsetX; //Passing Current MouseX Position As prevMouseX Value !
@@ -54,8 +58,9 @@ const drawing = (e) => {
     ctx.lineTo(e.offsetX, e.offsetY); //Creating Line According To The Mouse Pointer !
     ctx.stroke(); //Drawing & Filling Line With Color !
   } else if (selectedTool === "rectangle") {
-    // Corrected the tool name
     drawRect(e);
+  } else if (selectedTool === "circle") {
+    drawCircle(e);
   }
 };
 
