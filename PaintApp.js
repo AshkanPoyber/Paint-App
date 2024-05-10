@@ -11,6 +11,7 @@ window.addEventListener("load", () => {
 
 const startDraw = () => {
   isDrawing = true;
+  ctx.beginPath(); //Creating New path To Draw !
 };
 
 const drawing = (e) => {
