@@ -1,7 +1,8 @@
 const canvas = document.querySelector("canvas"),
   ctx = canvas.getContext("2d");
 
-let isDrawing = false;
+let isDrawing = false,
+  brushWidth = 5;
 
 window.addEventListener("load", () => {
   //Setting Canvas Width & Height ~ offsetwidth & height Return Viewable Width & Height Of An Element !
@@ -12,6 +13,7 @@ window.addEventListener("load", () => {
 const startDraw = () => {
   isDrawing = true;
   ctx.beginPath(); //Creating New path To Draw !
+  ctx.lineWidth = brushWidth; //Passing brushSize As line Width !
 };
 
 const drawing = (e) => {
