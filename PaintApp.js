@@ -67,6 +67,8 @@ const drawing = (e) => {
     drawRect(e);
   } else if (selectedTool === "circle") {
     drawCircle(e);
+  } else {
+    drawTriangle(e);
   }
 };
 
