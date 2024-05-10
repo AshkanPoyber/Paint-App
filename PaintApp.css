@@ -50,7 +50,7 @@ section {
 
 .option :where(span, label) {
   color: #5a6168;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .drawing-board {
