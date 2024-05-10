@@ -3,7 +3,9 @@ const canvas = document.querySelector("canvas"),
   ctx = canvas.getContext("2d");
 
 //Global Variables With Default Value !
-let isDrawing = false,
+let prevMouseX,
+  prevMouseY,
+  isDrawing = false,
   selectedTool = "brush",
   brushWidth = 5;
 
@@ -14,11 +16,18 @@ window.addEventListener("load", () => {
 });
 
 const drawRect = (e) => {
-  //   ctx.strokeRect(e.offsetX, e.offsetY);
+  ctx.strokeRect(
+    e.offsetX,
+    e.offsetY,
+    prevMouseX - e.offsetX,
+    prevMouseY - e.offsetY
+  );
 };
 
-const startDraw = () => {
+const startDraw = (e) => {
   isDrawing = true;
+  prevMouseX = e.offsetX; //Passing Current MouseX Position As prevMouseX Value !
+  prevMouseY = e.offsetY; //Passing Current MouseY Position As prevMouseY Value !
   ctx.beginPath(); //Creating New path To Draw !
   ctx.lineWidth = brushWidth; //Passing brushSize As line Width !
 };
