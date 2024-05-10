@@ -42,6 +42,17 @@ section {
   margin: 10px 0 0 5px;
 }
 
+.row .options .option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option :where(span, label) {
+  color: #5a6168;
+  padding: 10px;
+}
+
 .drawing-board {
   flex: 1;
 }
