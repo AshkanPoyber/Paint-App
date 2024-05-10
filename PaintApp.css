@@ -14,3 +14,14 @@ body {
   min-height: 100vh;
   background: #4a98f7;
 }
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1050px;
+}
+
+section {
+  background: #fff;
+  border-radius: 7px;
+}
