@@ -21,3 +21,4 @@ const drawing = (e) => {
 
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
+canvas.addEventListener("mouseup", () => (isDrawing = false));
