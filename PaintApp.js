@@ -1,5 +1,6 @@
 const canvas = document.querySelector("canvas"),
   toolBtns = document.querySelectorAll(".tool"),
+  fillColor = document.querySelectorAll("#fill-color"),
   ctx = canvas.getContext("2d");
 
 //Global Variables With Default Value !
@@ -17,7 +18,17 @@ window.addEventListener("load", () => {
 });
 
 const drawRect = (e) => {
-  ctx.strokeRect(
+  //If fillColor Is Not Checked Draw A Rect With Border Else Draw Rect With Background !
+  if (!fillColor.checked) {
+    //Creating Circle According To The Mouse Pointer !
+    return ctx.strokeRect(
+      e.offsetX,
+      e.offsetY,
+      prevMouseX - e.offsetX,
+      prevMouseY - e.offsetY
+    );
+  }
+  ctx.fillRect(
     e.offsetX,
     e.offsetY,
     prevMouseX - e.offsetX,
