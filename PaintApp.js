@@ -96,6 +96,13 @@ toolBtns.forEach((btn) => {
 
 sizeSlider.addEventListener("change", () => (brushWidth = sizeSlider.value)); //Passing Slider Value As brushSize !
 
+colorBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    //Adding Click Event To All Color Button !
+    console.log(btn);
+  });
+});
+
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
