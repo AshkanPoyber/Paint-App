@@ -18,9 +18,10 @@ let prevMouseX,
   selectedColor = "#000";
 
 const setCanvasBackground = () => {
+  //Setting Whole Canvas Background To White ~ So The Download Img Background Will Be White !
   ctx.fillStyle = "#fff";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = selectedColor;
+  ctx.fillStyle = selectedColor; //Setting fillStyle Back To The selectedColor ~ It Will Be The Brush Color !
 };
 
 window.addEventListener("load", () => {
