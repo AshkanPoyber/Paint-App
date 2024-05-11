@@ -102,7 +102,9 @@ colorBtns.forEach((btn) => {
     //Removing Active Class From The Previous Option And Adding On Current Clicked Option !
     document.querySelector(".options .selected").classList.remove("selected");
     btn.classList.add("selected");
-    console.log(window.getComputedStyle(btn).getPropertyValue("background"));
+    console.log(
+      window.getComputedStyle(btn).getPropertyValue("background-color")
+    );
   });
 });
 
