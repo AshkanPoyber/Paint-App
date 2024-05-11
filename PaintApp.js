@@ -3,6 +3,7 @@ const canvas = document.querySelector("canvas"),
   fillColor = document.querySelector("#fill-color"),
   sizeSlider = document.querySelector("#size-slider"),
   colorBtns = document.querySelectorAll(".colors .option"),
+  colorPicker = document.querySelector("#color-picker"),
   ctx = canvas.getContext("2d");
 
 //Global Variables With Default Value !
