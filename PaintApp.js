@@ -114,7 +114,9 @@ colorBtns.forEach((btn) => {
 });
 
 colorPicker.addEventListener("change", () => {
+  //Passing Picked Color Value From Color Picker To Last Color btn Background !
   colorPicker.parentElement.style.background = colorPicker.value;
+  colorPicker.parentElement.click();
 });
 
 canvas.addEventListener("mousedown", startDraw);
