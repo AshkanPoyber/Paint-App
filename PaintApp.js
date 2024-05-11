@@ -28,6 +28,7 @@ window.addEventListener("load", () => {
   //Setting Canvas Width & Height ~ offsetWidth & Height Return Viewable Width & Height Of An Element !
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
+  setCanvasBackground();
 });
 
 const drawRect = (e) => {
@@ -133,6 +134,7 @@ colorPicker.addEventListener("change", () => {
 
 clearCanvas.addEventListener("click", () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height); //Clearing Whole Canvas !
+  setCanvasBackground();
 });
 
 saveImg.addEventListener("click", () => {
