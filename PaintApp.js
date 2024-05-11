@@ -123,6 +123,10 @@ colorPicker.addEventListener("change", () => {
   colorPicker.parentElement.click();
 });
 
+clearCanvas.addEventListener("click", () => {
+  ctx.clearRect(0, 0, canvas.width, canvas.height); //Clearing Whole Canvas !
+});
+
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
