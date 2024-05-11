@@ -75,7 +75,8 @@ const drawing = (e) => {
   if (!isDrawing) return; //If isDrawing Is False Return From Here !
   ctx.putImageData(snapshot, 0, 0); //Adding Copied Canvas Data On Ti This Canvas !
 
-  if (selectedTool === "brush") {
+  if (selectedTool === "brush" || selectedTool === "eraser") {
+    ctx.strokeStyle = selectedTool === "eraser" ? "#fff" : selectedColor;
     ctx.lineTo(e.offsetX, e.offsetY); //Creating Line According To The Mouse Pointer !
     ctx.stroke(); //Drawing & Filling Line With Color !
   } else if (selectedTool === "rectangle") {
