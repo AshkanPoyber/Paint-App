@@ -17,6 +17,11 @@ let prevMouseX,
   brushWidth = 5,
   selectedColor = "#000";
 
+const setCanvasBackground = () => {
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+};
+
 window.addEventListener("load", () => {
   //Setting Canvas Width & Height ~ offsetWidth & Height Return Viewable Width & Height Of An Element !
   canvas.width = canvas.offsetWidth;
