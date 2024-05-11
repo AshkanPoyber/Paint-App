@@ -130,6 +130,8 @@ clearCanvas.addEventListener("click", () => {
 
 saveImg.addEventListener("click", () => {
   const link = document.createElement("a"); //Creating <a> Element !
+  link.download = `${Date.now()}.jpg`;
+  link.href = canvas.toDataURL();
 });
 
 canvas.addEventListener("mousedown", startDraw);
