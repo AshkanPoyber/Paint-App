@@ -99,6 +99,9 @@ sizeSlider.addEventListener("change", () => (brushWidth = sizeSlider.value)); //
 colorBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     //Adding Click Event To All Color Button !
+    //Removing Active Class From The Previous Option And Adding On Current Clicked Option !
+    document.querySelector(".options .selected").classList.remove("selected");
+    btn.classList.add("selected");
     console.log(btn);
   });
 });
