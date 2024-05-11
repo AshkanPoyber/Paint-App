@@ -11,7 +11,8 @@ let prevMouseX,
   snapshot,
   isDrawing = false,
   selectedTool = "brush",
-  brushWidth = 5;
+  brushWidth = 5,
+  selectedColor = "#000";
 
 window.addEventListener("load", () => {
   //Setting Canvas Width & Height ~ offsetWidth & Height Return Viewable Width & Height Of An Element !
@@ -102,9 +103,10 @@ colorBtns.forEach((btn) => {
     //Removing Active Class From The Previous Option And Adding On Current Clicked Option !
     document.querySelector(".options .selected").classList.remove("selected");
     btn.classList.add("selected");
-    console.log(
-      window.getComputedStyle(btn).getPropertyValue("background-color")
-    );
+    //Passing Selected btn Background Color As selectedColor value !
+    selectedColor = window
+      .getComputedStyle(btn)
+      .getPropertyValue("background-color");
   });
 });
 
