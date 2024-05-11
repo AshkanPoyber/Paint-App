@@ -128,6 +128,10 @@ clearCanvas.addEventListener("click", () => {
   ctx.clearRect(0, 0, canvas.width, canvas.height); //Clearing Whole Canvas !
 });
 
+saveImg.addEventListener("click", () => {
+  const link = document.createElement("a"); //Creating <a> Element !
+});
+
 canvas.addEventListener("mousedown", startDraw);
 canvas.addEventListener("mousemove", drawing);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
