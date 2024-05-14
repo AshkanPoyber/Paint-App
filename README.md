@@ -20,8 +20,14 @@
 v1.0.0.0 : <br>
 ✅ Final Version Published!
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> ToDo List
-💢 Will Be Add Soon !
-
+💢 Create Icon
+<br>
+💢 Download Some Images For Shapes Section
+<br>
+💢 Coding And Enjoy It :)
+<br>
+💢 And Absolutely So Much More !
+<br>
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Known Issue's
 ⚠ It Is Final Version , Then Its Not Getting So Problems. 
 
