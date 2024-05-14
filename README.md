@@ -22,7 +22,7 @@ v1.0.0.0 : <br>
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> ToDo List
 💢 Create Icon
 <br>
-💢 Download Some Images For Shapes Section
+💢 Download Some Images For Shapes And Options Section
 <br>
 💢 Coding And Enjoy It :)
 <br>
