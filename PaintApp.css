@@ -7,12 +7,38 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* تعریف keyframes برای تغییر رنگ */
+@keyframes colorCascade {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: orange;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
+/* اعمال keyframes بر روی عناصر */
+.animated-box {
+  width: 100px;
+  height: 100px;
+  animation: colorCascade 5s infinite; /* انیمیشن با زمان 5 ثانیه و تکرار بی‌نهایت */
+}
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4a98f7;
+  /* background: #4a98f7; */
 }
 
 .container {
