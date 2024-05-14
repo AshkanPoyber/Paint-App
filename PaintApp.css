@@ -13,7 +13,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   /* background: #4a98f7; */
-  background: linear-gradient(red 50%, blue 50%);
+  background: linear-gradient(red, blue);
 }
 
 .container {
