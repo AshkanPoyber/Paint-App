@@ -29,7 +29,7 @@ v1.0.0.0 : <br>
 💢 And Absolutely So Much More !
 <br>
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> Known Issue's
-⚠ It Is Final Version , Then Its Not Getting So Problems. 
+⚠ It Is Final Version , Then Its Not Getting So Problems. But If You Encounter Any Problem , Let Me Know By Sending An Email <a href = "mailto:AshkanDalili1381@gmail.com"><img src="https://img.shields.io/badge/-Gmail-00ff00?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Bubbles.png" alt="Bubbles" width="40" height="40" /> ScreenShots
